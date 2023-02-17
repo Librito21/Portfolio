@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+	</head>
+	<body>
+	<font size="5"> Introduce tus datos personales para darte de alta </font><br></br>
+		<form action="mailto:actualwizard666@super-mail.com"method="POST" enctype="text/plain">
+			<label for="GET-name">Nombre: <input type="text" name="Nombre" Size="15" maxlength="10">
+			<br></br>
+			<label for="GET-name">Apellido: <input type="text" name="Apellido" Size="30" maxlength="20">
+			<br></br>
+			<label for="GET-name">Usuario: <input type="text" name="Username" Size="30" maxlength="20">
+			<br></br>
+			<label for="GET-name">Contraseña: <input type="password" name="Pass" Size="30" maxlength="10">
+			<br></br>
+			<label for="GET-name">Repite Contraseña: <input type="password" name="Pass" Size="30" maxlength="10">
+			<br></br>
+			Sexo
+				<input type="radio" name="Genero" value="Hombre">Hombre
+				<input type="radio" name="Genero" value="Mujer">Mujer
+				<input type="radio" name="Genero" value="No Binario" CHECKED>No binario</td>
+			<br></br>
+			Edad
+				<input type="radio" name="Edad" value="0-15">0-15
+				<input type="radio" name="Edad" value="16-30">16-30
+				<input type="radio" name="Edad" value="31-50">31-50
+				<input type="radio" name="Edad" value="50-Mas">50-Mas</td>
+			<br></br>
+			Municipios
+				<select name="Municipio">
+					<option value="Cadrete">Cadrete
+					<option value="Zaragoza"SELECTED>Zaragoza
+					<option value="Utebo">Utebo
+					<option value="Pastriz">Pastriz
+					<option value="Mozota">Mozota
+					<option value="Borja">Borja
+					<option value="Alagon">Alagon
+					<option value="Daroca">Daroca
+					<option value="Bureta">Bureta
+				<option value="Biota">Biota
+				</select>
+			<br></br>
+			Navegadores Utilizados
+				<input type="checkbox" name="Mozilla Firefox" value="Yes">Mozilla Firefox
+				<input type="checkbox" name="Google Chrome" value="Yes">Google Chrome
+				<input type="checkbox" name="Internet Explorer" value="Yes">Internet Explorer
+				<input type="checkbox" name="Otros" value="Yes">Otros
+			<br><br>
+				Comentarios y Sugerencias<br>
+				<textarea name="Description" rows="8" cols="50"></textarea>
+			<br>
+		<input type="Submit" value="Enviar">
+		<input type="reset" value="Borrar">
+		</form>
+	</body>
+</html>
