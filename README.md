@@ -1,2 +1,2 @@
 # Practica 
-#### Mi porfolio con carrusel de imagenes
+#### Practica de Bootstrap en Github
